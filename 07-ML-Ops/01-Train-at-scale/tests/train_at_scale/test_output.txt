@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.6, pytest-8.4.2, pluggy-1.6.0 -- /home/adel/.pyenv/versions/3.10.6/envs/taxifare-env/bin/python
+cachedir: .pytest_cache
+rootdir: /home/adel/code/A0I7/07-ML-Ops/01-Train-at-scale/tests
+configfile: pytest_kitt.ini
+plugins: anyio-4.11.0
+collecting ... collected 8 items / 2 deselected / 6 selected
+
+tests/train_at_scale/test_clean.py::test_clean_data PASSED               [ 16%]
+tests/train_at_scale/test_main_local.py::TestMainLocal::test_route_preprocess_and_train PASSED [ 33%]
+tests/train_at_scale/test_main_local.py::TestMainLocal::test_route_pred PASSED [ 50%]
+tests/train_at_scale/test_model.py::test_model_can_fit PASSED            [ 66%]
+tests/train_at_scale/test_notebook.py::TestNotebook::test_y_pred PASSED  [ 83%]
+tests/train_at_scale/test_processor_pipeline.py::test_preprocess_features PASSED [100%]
+
+================ 6 passed, 2 deselected, 14 warnings in 28.19s =================
